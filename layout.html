@@ -1,0 +1,22 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO List</title>
+        <link href="{% static 'list/style.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+        </div>
+
+        <div id="task-form">
+            <label for=""> Enter Your Task:: </label>
+            <form>
+                <input type="text" id="task">
+                <input type="submit" value="Add" id="submit">
+            </form>
+        </div>
+        <script type="text/javascript" src="{% static 'list/index.js' %}"></script>
+    </body>
+</html>
